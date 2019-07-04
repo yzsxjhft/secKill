@@ -7,12 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my-seck-ill" />
+        <module name="secKill" />
+        <module name="my-seckill" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="secKill" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="my-seck-ill" options="-parameters" />
+      <module name="my-seckill" options="-parameters" />
+      <module name="secKill" options="-parameters" />
     </option>
   </component>
 </project>

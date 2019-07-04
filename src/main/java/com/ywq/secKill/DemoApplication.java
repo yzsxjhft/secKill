@@ -1,4 +1,4 @@
-package com.ywq;
+package com.ywq.secKill;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

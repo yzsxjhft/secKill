@@ -1,4 +1,4 @@
-package com.ywq.interceptor;
+package com.ywq.secKill.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

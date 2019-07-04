@@ -1,6 +1,6 @@
-package com.ywq.config;
+package com.ywq.secKill.config;
 
-import com.ywq.interceptor.LoginInterceptor;
+import com.ywq.secKill.interceptor.LoginInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;

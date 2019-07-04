@@ -1,4 +1,4 @@
-package com.ywq.Entry;
+package com.ywq.secKill.entry;
 
 public class Response<T> {
     private int code;
