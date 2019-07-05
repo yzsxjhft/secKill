@@ -1,5 +1,6 @@
 package com.ywq.secKill.interceptor;
 
+import com.ywq.secKill.util.TokenUtil;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -10,6 +11,7 @@ public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String token = request.getHeader("token");
+        if (TokenUtil.checkToken(token)) return false;
 
         return true;
     }
