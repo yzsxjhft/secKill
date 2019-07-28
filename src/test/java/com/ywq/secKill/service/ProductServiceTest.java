@@ -31,4 +31,10 @@ public class ProductServiceTest {
         productService.insert(product);
 
     }
+
+    @Test
+    public void buyOne() {
+        int productId = 1;
+        int res = productService.buyOne(productId);
+    }
 }

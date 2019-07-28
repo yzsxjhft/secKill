@@ -35,9 +35,10 @@ public class Response<T> {
         return response;
     }
 
-    public static Response buildFail() {
+    public static Response buildFail(String msg) {
         Response response = new Response();
         response.setCode(QUERY_FAIL);
+        response.setMsg(msg);
         return response;
     }
 
